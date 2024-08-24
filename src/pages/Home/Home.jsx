@@ -22,8 +22,8 @@ export default function Home() {
     <div className="w-full">
       <Navbar />
       <Header />
-      <MovieLists movies={movies} />
-      <MovieLists movies={series} />
+      <MovieLists type={'Movies'} movies={movies} />
+      <MovieLists type={'Series'} movies={series} />
       <Footer /> 
     </div>
   );

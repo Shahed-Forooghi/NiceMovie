@@ -30,7 +30,7 @@ export default function MovieLists(props) {
     <div className="mx-2 my-8 sm:mx-24">
       <div className="flex items-center justify-between">
         <span className="font-bold text-lg sm:text-xl text-[#eee]">
-          Trending Movies
+          {props.type}
         </span>
         <button className="px-3 py-1 sm:px-6 border-2 text-sm sm:text-lg border-white rounded-2xl font-bold">
           View more
